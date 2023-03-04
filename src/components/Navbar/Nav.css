@@ -1,0 +1,29 @@
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-container-left{
+    display: flex;
+    
+}
+.nav-container-right{
+    display:flex;
+    
+}
+.nav-items-left{
+    margin:1.2em;
+    
+}
+.nav-item-left{
+    margin-left:4em !important;
+}
+.nav-container-center{
+    margin:1.2em;
+   
+}
+.nav-items-right{
+    margin:1.2em 0.8em;
+}
+.nav-icon{
+    margin-top:1.4em;
+}
