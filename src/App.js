@@ -1,11 +1,15 @@
 import Nav from "./components/Navbar/Nav";
-import hero from "./assets/div.png"
+import hero from "./assets/div.png";
+import "./components/Navbar/Nav.css"
 function App() {
 
   return (
   <>
   <Nav />
-  <img style={{width:"100%"}} src={hero} />
+  <div class="image-container">
+  <img className="hero-img" src={hero} />
+  </div>
+  
   </>
   );
 }

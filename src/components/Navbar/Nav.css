@@ -1,6 +1,9 @@
 .nav-container{
     display: flex;
     justify-content: space-between;
+    position: sticky;
+    top:0;
+    background-color: white;
 }
 .nav-container-left{
     display: flex;
@@ -18,8 +21,9 @@
     margin-left:4em !important;
 }
 .nav-container-center{
-    margin:1.2em;
-   
+    margin:0.8em;
+   font-family: 'Inter','Sans-Serif';
+   font-size: 1.4em;
 }
 .nav-items-right{
     margin:1.2em 0.8em;
@@ -27,3 +31,17 @@
 .nav-icon{
     margin-top:1.4em;
 }
+.nav-item-right{
+    margin-right:4em;
+}
+.cursor{
+    cursor:pointer;
+}
+.hero-img{
+    
+        width: 100%;
+        height: auto;
+      
+}
+  
+  
