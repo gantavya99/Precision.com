@@ -1,0 +1,12 @@
+.hero-img {
+    width: 100%;
+    height: auto;
+  }
+  .img-container{
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: grid;
+    place-items: center;
+}

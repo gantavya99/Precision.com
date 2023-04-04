@@ -3,7 +3,8 @@ import { Search,Heart,Handbag } from 'react-bootstrap-icons';
 import './Nav.css'
 const Nav = () => {
   return (
-    <div className='nav-container cursor'>
+    <>
+     <div className='nav-container cursor'>
         <div className='nav-container-left'>
         <div className='nav-items-left nav-item-left'>
             Women
@@ -14,7 +15,7 @@ const Nav = () => {
         </div>
         
         <div className='nav-container-center'>
-            THE HORSE
+            PRECISION
         </div>
         <div className='nav-container-right'>
         <div className='nav-items-right'>
@@ -33,6 +34,8 @@ const Nav = () => {
         
 
     </div>
+    </>
+   
   )
 }
 
