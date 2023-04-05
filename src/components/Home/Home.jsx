@@ -8,8 +8,8 @@ const Home = () => {
             { id: 1, title: "IronMan" },
            { id: 2, title: "Captain America" },
            { id: 3, title: "Thor" },
-           { id: 4, title: "Black Widow",comic:"Marvel" },
-           { id: 5, title: "Hulk",cominc:"Marvel" },
+           { id: 4, title: "Black Widow"},
+           { id: 5, title: "Hulk"},
     ]
   return (
     <>
