@@ -31,8 +31,42 @@ const Nav = () => {
             <Handbag />
         </div>
         </div>
-        
+    </div>
+    <div className="hover-container ">
+        <span>
+            New
+        </span>
+        <span>
+            Bags
+        </span>
+        <span>
+            Watches
+        </span>
+        <span>
+            Wallets
+        </span>
+        <span>
+            Tech & Travel
+        </span>
+        <span>
+            For Work
+        </span>
 
+        <span>
+            Doggo
+        </span>
+        <span>
+            Gifts
+        </span>
+        <span>
+            Personalization
+        </span>
+        <span>
+            Gifts under $200
+        </span>
+        <span>
+            Sale
+        </span>
     </div>
     </>
    

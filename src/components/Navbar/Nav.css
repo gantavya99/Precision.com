@@ -4,6 +4,7 @@
     position: sticky;
     top: 0;
     background-color: white;
+    border-bottom: 0.5px grey solid;
   }
   
   .nav-container-left {
@@ -44,33 +45,7 @@
     cursor: pointer;
   }
   
-  
-  @media screen and (max-width: 768px) {
-    .nav-container {
-      flex-direction: column;
-      align-items: center;
-    }
-  
-    .nav-container-left {
-      flex-direction: column;
-      align-items: center;
-    }
-  
-    .nav-items-left {
-      margin: 0.5em;
-    }
-  
-    .nav-container-center {
-      margin: 0.5em;
-      font-size: 1.2em;
-    }
-  
-    .nav-items-right {
-      margin: 0.5em;
-    }
-  
-    .nav-item-right {
-      margin-right: 2em;
-    }
-  }
-  
+ .hover-container{
+  display: flex;
+  justify-content: center;
+ }
